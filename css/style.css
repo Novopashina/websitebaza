@@ -674,5 +674,506 @@ li {
     background: url(../img/services/icon-bg.svg) no-repeat;
     position: absolute;
   }
+    .support {
+    margin-top: 160px;
+    color: #050C33;
+}
+
+/* Общая информация */
+
+.support__title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 51px;
+    width: 406px;
+    margin: 0px auto -140px;
+}
+
+/* Карточки услуг */
+
+.support__list {
+    width: 1184px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.support__item {
+    z-index: 2;
+    position: relative;
+    overflow: hidden;
+    width: 292px;
+    height: 292px;
+    padding: 30px 20px 0px 28px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    top: 205px;
+}
+
+/* Информация с карточек услуг */
+
+.support__item .support__item-number {
+    font-size: 12px;
+    opacity: 0.5;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.support__item .support__item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 12px;
+}
+
+.support__item .support__item-desc {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    opacity: 0.7;
+}
+
+/* иконки карточек */
+
+.support__item-1::before {
+    content: "";
+    width: 84px;
+    height: 84px;
+    background: url("../img/support/support1.svg") no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+}
+
+.support__item-2::before {
+    content: "";
+    width: 84px;
+    height: 84px;
+    background: url("../img/support/support2.svg") no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+}
+
+.support__item-3::before {
+    content: "";
+    width: 84px;
+    height: 84px;
+    background: url("../img/support/support3.svg") no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+}
+
+.support__item-4::before {
+    content: "";
+    width: 84px;
+    height: 84px;
+    background: url("../img/support/support4.svg") no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+}
+
+.support__item-5::before {
+    content: "";
+    width: 84px;
+    height: 84px;
+    background: url("../img/support/support5.svg") no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+}
+
+.support__item-6::before {
+    content: "";
+    width: 84px;
+    height: 84px;
+    background: url("../img/support/support6.svg") no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+}
+
+.support__item-7::before {
+    content: "";
+    width: 84px;
+    height: 84px;
+    background: url("../img/support/support7.svg") no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+}
+
+.support__item-8::before {
+    content: "";
+    width: 84px;
+    height: 84px;
+    background: url("../img/support/support8.svg") no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: -2px;
+}
+
+/* фон с druplicon */
+
+.support__druplicon {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1060px;
+    height: 839px;
+}
+
+/* фон с laptop */
+
+.support__laptop {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 760px;
+    height: 562px;
+    z-index: 4;
+}
+
+/* темная обертка */
+
+.support__wrapper {
+    position: relative;
+    height: 839px;
+    background: linear-gradient(261.2deg, rgba(255, 255, 255, 0.276) -114.85%, rgba(255, 255, 255, 0) 69.04%), #040613;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.support__wrapper .support__wrapper-body {
+    padding-top: 205px;
+    position: relative;
+    z-index: 2;
+}
+
+.support__expertise {
+    margin-top: 197px;
+    margin-left: auto;
+    margin-right: 430px;
+    width: 580px;
+}
+
+/* Заголовок темной обертки */
+
+.support__expertise-title {
+    color: white;
+    width: 580px;
+    font-size: 42px;
+    line-height: 51px;
+    font-weight: 700;
+}
+
+/* Список темной обертки */
+
+.support__expertise-list {
+    display: flex;
+}
+
+.support__expertise-item {
+    width: 256px;
+    height: 100px;
+    padding: 10px 0px 0px 13px;
+    border-left: 3px solid #F14D34;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+
+.support__expertise-item p {
+    color: white;
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+
+/* --- PLANS | ТАРИФЫ УСЛУГ --- */
+
+.plans {
+    position: relative;
+    height: 913px;
+}
+
+.plans__body {
+    padding: 150px 0px;
+}
+
+.plans__body p {
+    text-align: start;
+    width: 468px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #050C33;
+}
+
+.plans__body a {
+    display: block;
+    width: 260px;
+    color: #050C33;
+    font-size: 12px;
+    text-decoration: underline;
+    margin: 24px auto;
+}
+
+/* фон */
+
+.d-big-background {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* линия в карточках */
+
+.plans__card-line {
+    width: 300px;
+    height: 1px;
+    opacity: 0.2;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: black;
+}
+
+/* заголовок раздела */
+
+.plans__title {
+    font-size: 42px;
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 4;
+    font-weight: bold;
+    line-height: 51px;
+    align-items: center;
+    text-align: center;
+}
+
+/* карточки */
+
+.plans__cards {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin-bottom: 52px;
+}
+
+/* заголов карточек */
+
+.plans__title-card h4 {
+    color: #F14D34;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* цены карточек */
+
+.plans__price-card h3 {
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #050C33;
+}
+
+.plans__price-card span {
+    position: relative;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 28px;
+    top: -11px;
+    color: #050C33;
+}
+
+.plans__price-card p {
+    position: relative;
+    right: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: start;
+    color: #050C33;
+    opacity: 1;
+}
+
+/* анимация карточек с помощью JS */
+
+.plans .scaled {
+    z-index: 2;
+    transform: scale(1.08);
+    box-shadow: 0px 4px 60px rgba(162, 162, 162, 0.25);
+}
+
+.plans .scaled .plans__btn {
+    color: white;
+    background-color: #F14D34;
+}
+
+.plans .business-scale {
+    padding-top: 85px;
+    z-index: 1;
+    transform: scale(0.93);
+    box-shadow: none;
+}
+
+.plans .business-scale .plans__btn {
+
+    width: 300px;
+    margin-top: 50px;
+    background-color: white;
+    color: #F14D34;
+}
+
+/* тело карточек */
+
+.plans__card {
+    padding: 70px 20px 60px;
+}
+
+.plans__card p {
+    color: #050C33;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-left: 15px;
+    opacity: 0.7;
+}
+
+.plans__wrapper {
+    width: 330px;
+    margin: 0px auto;
+    margin-left: 20px;
+
+}
+
+/* кнопки карточек */
+
+.plans__btn {
+    color: #F14D34;
+    font-size: 12px;
+    width: 300px;
+    height: 60px;
+    border: 1px solid #F14D34;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    background-color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+/* карточка пакета "стартовый" */
+
+.plans__card-starting {
+    position: relative;
+    left: 20px;
+    z-index: 1;
+    width: 360px;
+    height: 619px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-right: 15px;
+    background: white;
+    transition: 0.4s;
+}
+
+.plans__card-starting .plans__card-line {
+    width: 270px;
+}
+
+.plans__card-starting .plans__wrapper {
+    width: 300px;
+    margin: 0px auto;
+}
+
+/* карточка пакета "бизнес" */
+
+.plans__card-business {
+    box-shadow: 0px 4px 60px rgba(162, 162, 162, 0.25);
+    z-index: 2;
+    width: 390px;
+    height: 665px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background: white;
+    transition: 0.4s;
+}
+
+.plans__card-business .plans__card-line {
+    margin-bottom: 65px;
+}
+
+.plans__card-business .plans__btn {
+    background-color: #F14D34;
+    color: white;
+}
+
+.business_btn {
+    margin-top: 75px;
+}
+
+/* карточка пакета "vip" */
+
+.plans__card-vip {
+    position: relative;
+    right: 20px;
+    z-index: 1;
+    width: 360px;
+    height: 619px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-left: 15px;
+    background: white;
+    transition: 0.4s;
+}
+
+.plans__card-vip .plans__card-line {
+    width: 270px;
+}
+
+.plans__card-vip .plans__wrapper {
+    width: 300px;
+    margin: 0px auto;
+}
+
+/* опции карточек */
+
+.plans__card-list-options {
+    margin-bottom: 20px;
+    display: flex;
+    width: 300px;
+}
+
+/* галочки в карточках */
+
+.plans__card-checkmark {
+    width: 30px;
+    height: auto;
+}
+
+/* футер / текст под всеми карточками */
+
+.plans__footer-text {
+    display: block;
+    margin: 53px auto 0 auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    width: 468px;
+    opacity: 0.5;
+}
   
 } 
