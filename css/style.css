@@ -892,3 +892,167 @@ li {
     width: 468px;
     opacity: 0.5;
 }
+/* --- CASES | ПОСЛЕДНИЕ НОВОСТИ --- */
+
+.cases {
+    width: 100%;
+    margin-top: 318px;
+}
+
+.cases__title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #050C33;
+    text-align: center;
+}
+
+.cases__items {
+    width: 1180px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.cases__items img {
+    position: absolute;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.cases__items span {
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    width: 320px;
+}
+
+.cases__text {
+    width: 380px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+}
+
+.cases__text .date {
+    font-size: 12px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+    opacity: 0.5;
+}
+
+.cases__text p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #050C33;
+    margin-top: 20px;
+    opacity: 0.7;
+}
+
+.cases__width-380 {
+    position: relative;
+    width: 380px;
+    height: 475px;
+    margin-bottom: 20px;
+}
+
+.cases__width-380 .cases__text {
+    padding: 40px 50px;
+}
+
+.cases__width-780 {
+    position: relative;
+    width: 780px;
+    height: 475px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.cases__width-780 .cases__text {
+    padding: 40px;
+}
+
+.cases__small-case .cases__text {
+    padding: 70px 30px;
+}
+
+.cases__small-case .cases__text .date {
+    color: #050C33;
+}
+
+.cases__small-case .cases__text span {
+    color: #050C33;
+}
+
+.cases__more {
+    font-size: 12px;
+    color: #050C33;
+    border-radius: 5px;
+    background-color: white;
+    width: 260px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(5, 12, 51, 0.2);
+    margin: 20px auto;
+}
+
+/* --- TEAM | КОМАНДА --- */
+
+.team {
+    width: 100%;
+    margin-top: 160px;
+}
+
+.team__title {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: center;
+    color: #050C33;
+}
+
+.team__list {
+    width: 1080px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.team__list-item {
+    width: 280px;
+    margin-top: 80px;
+}
+
+.team__photo {
+    margin-bottom: 30px;
+}
+
+.team__photo img {
+    width: 280px;
+    height: 280px;
+}
+
+.team__descr-name {
+    color: #050C33;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.team__descr-position {
+    font-size: 16px;
+    line-height: 22px;
+    color: #050C33;
+    opacity: 0.7;
+}
+
+
